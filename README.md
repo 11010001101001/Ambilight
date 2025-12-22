@@ -6,7 +6,7 @@ DIY desktop LED controller based on **Arduino Nano** and **WS2812B** addressable
 
 ### Hardware
 - Power Supply: **5V 10A** (headroom, low heat)
-- LED Strip: **WS2812B**, 5V, **96 LEDs**
+- LED Strip: **WS2812B**, 5V, **97 LEDs**
 - Controller: **Arduino Nano**
 - Data resistor (recommended)
 - Bulk capacitor on 5V rail
@@ -36,6 +36,8 @@ DIY desktop LED controller based on **Arduino Nano** and **WS2812B** addressable
 ![5](https://github.com/user-attachments/assets/b197067b-4950-46fd-9127-2f342cd7f1c0)
 ![6](https://github.com/user-attachments/assets/393cb2a6-8a84-4eb6-9239-c8f2ad0017f6)
 ![7](https://github.com/user-attachments/assets/b866a38d-30e4-43ba-bf14-07fcb17224d8)
+<img width="670" height="543" alt="1" src="https://github.com/user-attachments/assets/408d09fb-4512-4ba6-8304-35c719566c89" />
+<img width="670" height="543" alt="2" src="https://github.com/user-attachments/assets/704feb25-e910-4b65-8fb9-5c51c70dfbbb" />
 
 ### Notes
 - Some **Ambibox settings** are required: zones, directions, and layouts without corner LEDs.  
