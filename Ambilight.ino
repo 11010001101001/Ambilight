@@ -11,9 +11,6 @@
 #define DI_PIN 5          // пин, к которому подключена лента
 #define serialRate 115200 // скорость связи с ПК
 
-int new_bright, new_bright_f;
-unsigned long bright_timer;
-
 uint8_t prefix[] = {'A', 'd', 'a'}, hi, lo, chk, i; // кодовое слово Ada для связи
 
 CRGB leds[NUM_LEDS]; // создаём ленту
