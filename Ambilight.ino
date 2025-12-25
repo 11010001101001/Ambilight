@@ -17,6 +17,7 @@
 CRGB leds[NUM_LEDS];  // создаём ленту
 
 const uint8_t prefix[] = { 'A', 'd', 'a' };
+bool isSleeping = false;
 
 bool waitByte(uint16_t timeout = 1000) {
   uint32_t t = millis();
@@ -31,8 +32,11 @@ void clearBytes() {
 }
 
 void clearLED() {
-  FastLED.clear();
-  FastLED.show();
+  if (!isSleeping) {
+    isSleeping = true;
+    FastLED.clear();
+    FastLED.show();
+  }
 }
 
 void setup() {
